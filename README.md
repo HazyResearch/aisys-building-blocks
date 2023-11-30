@@ -18,6 +18,9 @@ If you think we're missing something, please open an issue or PR!
 ## Courses and Slides
 * [Sasha's talk on do we need attention?](https://github.com/srush/do-we-need-attention/blob/main/DoWeNeedAttention.pdf)
 * [CS 324 lecture on autoregressive LLMs](https://stanford-cs324.github.io/winter2022/lectures/introduction/)
+* Azalia course
+* MLSys Seminar
+* CS 324, both iterations
 
 ## Papers
 * [Holoclean: Holistic Data Repairs with Probabilistic Inference](https://arxiv.org/abs/1702.00820)
