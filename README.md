@@ -35,3 +35,12 @@ If you think we're missing something, please open an issue or PR!
 * [Hungry Hungry Hippos: Towards Language Modeling with State Space Models](https://arxiv.org/abs/2212.14052)
 * [Hyena Hierarchy: Towards Larger Convolutional Language Models](https://arxiv.org/abs/2302.10866)
 * Associative recall papers: Ba et al, Zhang and Zhou 17, Olsson et al 21
+
+## Pointers to inference work
+* MQA, GQA, Flash Decoding, VLLM, Spec Decoding, Matformer, TGI, TensorRT
+
+## Pointers to high throughput work
+* FlexGen, Evaporate, blog post
+
+## Pointers to data types
+* HyenaDNA, find papers that have used it, blog posts, code
