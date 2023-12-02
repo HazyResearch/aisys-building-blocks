@@ -14,6 +14,7 @@ If you think we're missing something, please open an issue or PR!
 * Based blog
 * M2-retrieval blog
 * Sub-quadratic in model dimension blog
+* Convolutions blog
 
 ## Courses and Slides
 * [Sasha's talk on do we need attention?](https://github.com/srush/do-we-need-attention/blob/main/DoWeNeedAttention.pdf)
