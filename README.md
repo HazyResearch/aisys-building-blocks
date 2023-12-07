@@ -10,7 +10,7 @@ If you think we're missing something, please open an issue or PR!
 
 ## Blog Posts
 * [FlashAttention Blog](https://crfm.stanford.edu/2023/01/13/flashattention.html)
-* [Simplifying S4](https://hazyresearch.stanford.edu/blog/2022-06-11-simplifying-s4​)
+* [Simplifying S4](https://hazyresearch.stanford.edu/blog/2022-06-11-simplifying-s4)
 * [FlashFFTConv](https://hazyresearch.stanford.edu/blog/2023-11-13-flashfftconv)
 * MQAR blog
 * Based blog
