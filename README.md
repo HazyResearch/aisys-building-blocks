@@ -14,7 +14,7 @@ If you just want to follow along on the major pieces from the talk, check out th
 * Synthetics
 * Truly Sub-Quadratic
 
-Here are some high-level courses that can be useful for getting your bearings.
+**Courses.** Here are some high-level courses that can be useful for getting your bearings.
 This list is biased by Stanford courses, so please reach out if you think of other resources that are helpful!
 * [CS 324 LLMs](https://stanford-cs324.github.io/winter2022/)
 * [CS 324 Advances in Foundation Models](https://stanford-cs324.github.io/winter2023/)
