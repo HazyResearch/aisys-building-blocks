@@ -2,7 +2,7 @@
 
 **This repo is under construction!**
 
-This is a (biased) view of great work studying the building blocks of foundation models.
+This is a (biased) view of great work studying the building blocks of efficient and performant foundation models.
 This Github was originally put together as a place to aggregate materials for a [NeurIPS keynote](https://neurips.cc/virtual/2023/invited-talk/73990) - but we're also hoping to highlight great work across ML Systems.
 If you think we're missing something, please open an issue or PR!
 
@@ -16,11 +16,13 @@ If you just want to follow along on the major pieces from the talk, check out th
 
 **Courses.** Here are some high-level courses that can be useful for getting your bearings.
 This list is biased by Stanford courses, so please reach out if you think of other resources that are helpful!
-* [CS 324 LLMs](https://stanford-cs324.github.io/winter2022/)
-* [CS 324 Advances in Foundation Models](https://stanford-cs324.github.io/winter2023/)
+* [Stanford CS 324 LLMs](https://stanford-cs324.github.io/winter2022/)
+* [Stanford CS 324 Advances in Foundation Models](https://stanford-cs324.github.io/winter2023/)
 * [Sasha's talk on do we need attention?](https://github.com/srush/do-we-need-attention/blob/main/DoWeNeedAttention.pdf)
-* [CS 229S Systems for Machine Learning](https://cs229s.stanford.edu/fall2023/)
+* [Stanford CS 229S Systems for Machine Learning](https://cs229s.stanford.edu/fall2023/)
 * [MLSys Seminar](https://mlsys.stanford.edu/)
+* [Berkeley AI-Sys](https://ucbrise.github.io/cs294-ai-sys-sp22/)
+* [MIT CS 6.5940](https://hanlab.mit.edu/courses/2023-fall-65940)
 
 **Table of contents:**
 * [Foundation Models for Systems](#foundation-models-for-systems)
@@ -28,6 +30,7 @@ This list is biased by Stanford courses, so please reach out if you think of oth
 * [Can We Replace Attention?](#can-we-replace-attention)
 * [Synthetics for Language Modeling](#synthetics-for-language-modeling)
 * [Truly Sub-Quadratic Models](#truly-sub-quadratic-models)
+* [Quantization, Pruning, and Distillation](#quantization-pruning-distillation)
 * [Systems for Inference](#systems-for-inference)
 * [High-Throughput](#high-throughput)
 * [New Data Types](#new-data-types)
@@ -104,6 +107,8 @@ Synthetic tasks like associative recall have been very helpful in designing new 
 * [Using Fast Weights to Attend to the Recent Past](https://arxiv.org/abs/1610.06258)
 * [Learning to update Auto-associative Memory in Recurrent Neural Networks for Improving Sequence Memorization](https://arxiv.org/abs/1709.06493)
 * [Self-Attentive Associative Memory](https://arxiv.org/abs/2002.03519)
+* [Neural Turing Machines](https://arxiv.org/abs/1410.5401)
+* [Legendre Memory Units: Continuous-Time Representation in Recurrent Neural Networks](https://papers.nips.cc/paper_files/paper/2019/hash/952285b9b7e7a1be5aa7849f32ffff05-Abstract.html)
 
 ## Truly Sub-Quadratic Models
 
@@ -114,7 +119,7 @@ The canonical textbook for a lot of this stuff: [Structured Matrices and Polynom
 
 ### Blog Posts
 * Monarch Blog Post
-* [Monarch Mixer: Revisiting BERT, Without Attention or MLPs](https://arxiv.org/abs/2002.03519)
+* [M2-BERT: Revisiting BERT, Without Attention or MLPs](https://hazyresearch.stanford.edu/blog/2023-07-25-m2-bert)
 * M2 retrieval (hopefully)
 * [Pixelated Butterfly: Simple and Efficient Sparse Training for Neural Network Models](https://hazyresearch.stanford.edu/blog/2022-01-17-Sparsity-3-Pixelated-Butterfly)
 * [Butterflies Are All You Need: A Universal Building Block for Structured Linear Maps](https://dawn.cs.stanford.edu/2019/06/13/butterfly/)
@@ -128,10 +133,15 @@ The canonical textbook for a lot of this stuff: [Structured Matrices and Polynom
 * [Fast Algorithms for Spherical Harmonic Expansions](http://tygert.com/butterfly.pdf)
 * [Butterfly Factorization](https://arxiv.org/abs/1502.01379)
 * [GLaM: Efficient Scaling of Language Models with Mixture-of-Experts](https://arxiv.org/abs/2112.06905)
+* [A Two Pronged Progress in Structured Dense Matrix Multiplication](https://arxiv.org/abs/1611.01569)
+
+## Quantization, Pruning, and Distillation
+
+### Papers
+* [QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314)
 * [The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks](https://arxiv.org/abs/1803.03635)
 * [Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding](https://arxiv.org/abs/1510.00149)
 * [Learning to Prune Deep Neural Networks via Layer-wise Optimal Brain Surgeon](https://arxiv.org/abs/1705.07565)
-* [A Two Pronged Progress in Structured Dense Matrix Multiplication](https://arxiv.org/abs/1611.01569)
 
 ## Systems for Inference
 Inference is an increasingly important cost for LLMs: a model will be served many more times than it is trained.
@@ -143,14 +153,19 @@ Here's some papers and posts on the topic, there's a lot to do!
 * [vLLM](https://github.com/vllm-project/vllm)
 * [Fast Inference from Transformers via Speculative Decoding](https://arxiv.org/abs/2211.17192)
 * [MatFormer: Nested Transformer for Elastic Inference](https://arxiv.org/abs/2310.07707)
+* [Efficient Streaming Language Models with Attention Sinks](https://arxiv.org/abs/2309.17453)
 * [Hugging Face TGI](https://huggingface.co/docs/text-generation-inference/index)
 * [NVIDIA TensorRT](https://github.com/NVIDIA/TensorRT)
 * [Together Inference Engine](https://www.together.ai/blog/together-inference-engine-v1)
 
 ## High-Throughput
-Blog post https://hazyresearch.stanford.edu/blog/2023-04-12-batch
+Foundation models will increasingly be used to serve back-of-house tasks like document processing (not just chat interfaces).
+These will require different systems than our current inference solutions.
+[A blog post on the topic](https://hazyresearch.stanford.edu/blog/2023-04-12-batch).
 
-* FlexGen, Evaporate, blog post
+### Papers:
+* [FlexGen: High-throughput Generative Inference of Large Language Models with a Single GPU](https://arxiv.org/abs/2303.06865)
+* [Evaporate: Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes](https://www.vldb.org/pvldb/vol17/p92-arora.pdf)
 
 ## New Data Types
 * HyenaDNA, find papers that have used it, blog posts, code, EEG, fMRI
