@@ -1,4 +1,4 @@
-# (WIP) Building Blocks for AI Systems - UNDER CONSTRUCTION
+# (WIP) Building Blocks for AI Systems
 
 **This repo is under construction!**
 
@@ -123,7 +123,6 @@ The canonical textbook for a lot of this stuff: [Structured Matrices and Polynom
 ### Blog Posts
 * Monarch Blog Post
 * [M2-BERT: Revisiting BERT, Without Attention or MLPs](https://hazyresearch.stanford.edu/blog/2023-07-25-m2-bert)
-* M2 retrieval (hopefully)
 * [Pixelated Butterfly: Simple and Efficient Sparse Training for Neural Network Models](https://hazyresearch.stanford.edu/blog/2022-01-17-Sparsity-3-Pixelated-Butterfly)
 * [Butterflies Are All You Need: A Universal Building Block for Structured Linear Maps](https://dawn.cs.stanford.edu/2019/06/13/butterfly/)
 
@@ -165,6 +164,8 @@ Here's some papers and posts on the topic, there's a lot to do!
 ## High-Throughput
 Foundation models will increasingly be used to serve back-of-house tasks like document processing (not just chat interfaces).
 These will require different systems than our current inference solutions.
+This work is still very new, but hopefully there's a lot more to come soon!
+
 [A blog post on the topic](https://hazyresearch.stanford.edu/blog/2023-04-12-batch).
 
 ### Papers:
@@ -172,4 +173,13 @@ These will require different systems than our current inference solutions.
 * [Evaporate: Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes](https://www.vldb.org/pvldb/vol17/p92-arora.pdf)
 
 ## New Data Types
-* HyenaDNA, find papers that have used it, blog posts, code, EEG, fMRI
+Most ML models focus on text or images, but there's a large variety of other modalities that present unique challenges (e.g., long context).
+New modalities will drive advances in model architectures and systems.
+A few modalities compiled below:
+* DNA: [HyenaDNA paper](https://arxiv.org/abs/2306.15794) and [blog](https://hazyresearch.stanford.edu/blog/2023-06-29-hyena-dna)
+* [SSMs for Video](https://arxiv.org/abs/2303.14526)
+* [Recurrent Distance-Encoding Neural Networks for Graph Representation Learning](https://arxiv.org/abs/2312.01538)
+* [Modeling Multivariate Biosignals With Graph Neural Networks and Structured State Space Models](https://arxiv.org/abs/2211.11176)
+* [Self-Supervised Graph Neural Networks for Improved Electroencephalographic Seizure Analysis](https://arxiv.org/abs/2104.08336)
+* [Self-Supervised Learning of Brain Dynamics from Broad Neuroimaging Data](https://arxiv.org/abs/2206.11417)
+* [scHyena: Foundation Model for Full-Length Single-Cell RNA-Seq Analysis in Brain](https://arxiv.org/abs/2310.02713)
