@@ -168,10 +168,7 @@ Here's some papers and posts on the topic, there's a lot to do!
 Foundation models will increasingly be used to serve back-of-house tasks like document processing (not just chat interfaces).
 These will require different systems than our current inference solutions.
 This work is still very new, but hopefully there's a lot more to come soon!
-
-[A blog post on the topic](https://hazyresearch.stanford.edu/blog/2023-04-12-batch).
-
-### Papers:
+* [Batch computing and the coming age of AI systems](https://hazyresearch.stanford.edu/blog/2023-04-12-batch).
 * [FlexGen: High-throughput Generative Inference of Large Language Models with a Single GPU](https://arxiv.org/abs/2303.06865)
 * [Evaporate: Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes](https://www.vldb.org/pvldb/vol17/p92-arora.pdf)
 
