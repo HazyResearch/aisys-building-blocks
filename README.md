@@ -93,6 +93,8 @@ High-level overview of this space: [From Deep to Long Learning](https://hazyrese
 * [Resurrecting Recurrent Neural Networks for Long Sequences](https://arxiv.org/abs/2303.06349)
 * [MultiResFormer: Transformer with Adaptive Multi-Resolution Modeling for General Time Series Forecasting](https://arxiv.org/abs/2311.18780)
 * [CKConv: Continuous Kernel Convolution For Sequential Data](https://arxiv.org/abs/2102.02611)
+* [Pretraining Without Attention](https://arxiv.org/abs/2212.10544)
+* [Diffusion Models Without Attention](https://arxiv.org/abs/2311.18257)
 
 ## Synthetics for Language Modeling
 Synthetic tasks like associative recall have been very helpful in designing new architectures.
