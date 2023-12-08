@@ -46,6 +46,7 @@ Foundation models are changing the ways that we build systems for classical prob
 ### Papers
 * [Holoclean: Holistic Data Repairs with Probabilistic Inference](https://arxiv.org/abs/1702.00820)
 * [Can Foundation Models Wrangle Your Data?](https://arxiv.org/abs/2205.09911)
+* [Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes](https://arxiv.org/abs/2304.09433)
 
 ## Hardware-Aware Algorithms
 
