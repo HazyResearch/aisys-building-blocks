@@ -47,6 +47,8 @@ Foundation models are changing the ways that we build systems for classical prob
 * [Holoclean: Holistic Data Repairs with Probabilistic Inference](https://arxiv.org/abs/1702.00820)
 * [Can Foundation Models Wrangle Your Data?](https://arxiv.org/abs/2205.09911)
 * [Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes](https://arxiv.org/abs/2304.09433)
+* [Symphony: Towards Natural Language Query Answering Over Multi-Modal Data Lakes](https://www.cidrdb.org/cidr2023/papers/p51-chen.pdf)
+* [CodexDB: Synthesizing Code for Query Processing from Natural Language Instructions using GPT-3 Codex](https://www.vldb.org/pvldb/vol15/p2921-trummer.pdf)
 
 ## Hardware-Aware Algorithms
 
