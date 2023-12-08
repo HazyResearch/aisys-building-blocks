@@ -75,6 +75,7 @@ High-level overview of this space: [From Deep to Long Learning](https://hazyrese
 * [H3: Language Modeling with State Space Models and (Almost) No Attention](https://hazyresearch.stanford.edu/blog/2023-01-20-h3)
 * [Hyena Blog](https://hazyresearch.stanford.edu/blog/2023-06-08-hyena-safari)
 * Mamba tweet threads by [Albert](https://twitter.com/_albertgu/status/1731727672286294400) and [Tri](https://twitter.com/tri_dao/status/1731728602230890895)
+* [StripedHyena-7B](https://www.together.ai/blog/stripedhyena-7b)
 
 ### Papers
 * [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.00752) and [code](https://github.com/state-spaces/mamba)
