@@ -96,11 +96,12 @@ Synthetic tasks like associative recall have been very helpful in designing new 
 
 ### Associative Recall
 Associative recall has a long history in machine learning. Various works have proposed synthetic formulations of the task to better understand and evaluate model behavior.
-* Associative recall papers: Ba et al, Zhang and Zhou 17, Olsson et al 21
+* [Neural Turing Machines](https://arxiv.org/abs/1410.5401)
+* [Using Fast Weights to Attend to the Recent Past](https://arxiv.org/abs/1610.06258)
+* [Legendre Memory Units: Continuous-Time Representation in Recurrent Neural Networks](https://papers.nips.cc/paper_files/paper/2019/hash/952285b9b7e7a1be5aa7849f32ffff05-Abstract.html)
+* [In-context Learning and Induction Heads](https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html)
 
-### Blog Posts
-
-### Papers
+### Other Synthetics
 
 ## Truly Sub-Quadratic Models
 
@@ -109,7 +110,7 @@ Can we develop models that grow sub-quadratically with model width?
 
 ### Blog Posts
 * Monarch Blog Post
-* M2-BERT
+* [M2-BERT: Revisiting BERT, Without Attention or MLPs](https://hazyresearch.stanford.edu/blog/2023-07-25-m2-bert)
 * M2 retrieval (hopefully)
 * Butterflies are all you need
 
@@ -131,7 +132,7 @@ Can we develop models that grow sub-quadratically with model width?
 * [Batch computing and the coming age of AI systems](https://hazyresearch.stanford.edu/blog/2023-04-12-batch)
 
 ### Papers and projects:
-* [FlexGen](FlexGen: High-throughput Generative Inference of Large Language Models with a Single GPU)
+* [FlexGen: High-throughput Generative Inference of Large Language Models with a Single GPU](https://github.com/FMInference/FlexGen)
 * [Evaporate: Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes](https://www.vldb.org/pvldb/vol17/p92-arora.pdf)
 * [vLLM: Easy, Fast, and Cheap LLM Serving with PagedAttention](https://blog.vllm.ai/2023/06/20/vllm.html)
 
