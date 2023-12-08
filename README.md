@@ -2,7 +2,7 @@
 
 **This repo is under construction!**
 
-This is a (biased) view of great work studying the building blocks of foundation models.
+This is a (biased) view of great work studying the building blocks of efficient and performant foundation models.
 This Github was originally put together as a place to aggregate materials for a [NeurIPS keynote](https://neurips.cc/virtual/2023/invited-talk/73990) - but we're also hoping to highlight great work across ML Systems.
 If you think we're missing something, please open an issue or PR!
 
@@ -16,15 +16,18 @@ If you just want to follow along on the major pieces from the talk, check out th
 
 **Courses.** Here are some high-level courses that can be useful for getting your bearings.
 This list is biased by Stanford courses, so please reach out if you think of other resources that are helpful!
-* [CS 324 LLMs](https://stanford-cs324.github.io/winter2022/)
-* [CS 324 Advances in Foundation Models](https://stanford-cs324.github.io/winter2023/)
+* [Stanford CS 324 LLMs](https://stanford-cs324.github.io/winter2022/)
+* [Stanford CS 324 Advances in Foundation Models](https://stanford-cs324.github.io/winter2023/)
 * [Sasha's talk on do we need attention?](https://github.com/srush/do-we-need-attention/blob/main/DoWeNeedAttention.pdf)
-* [CS 229S Systems for Machine Learning](https://cs229s.stanford.edu/fall2023/)
+* [Stanford CS 229S Systems for Machine Learning](https://cs229s.stanford.edu/fall2023/)
 * [MLSys Seminar](https://mlsys.stanford.edu/)
+* [Berkeley AI-Sys](https://ucbrise.github.io/cs294-ai-sys-sp22/)
+* [MIT CS 6.5940](https://hanlab.mit.edu/courses/2023-fall-65940)
 
 **Table of contents:**
 * [Foundation Models for Systems](#foundation-models-for-systems)
 * [Hardware-Aware Algorithms](#hardware-aware-algorithms)
+* [Quantization, Pruning, and Distillation](#quantization-pruning-distillation)
 * [Can We Replace Attention?](#can-we-replace-attention)
 * [Synthetics for Language Modeling](#synthetics-for-language-modeling)
 * [Truly Sub-Quadratic Models](#truly-sub-quadratic-models)
@@ -56,6 +59,12 @@ Hardware-aware algorithms for today's ML primitives, like attention and long con
 * [FlashAttention](https://arxiv.org/abs/2205.14135) and [FlashAttention-2](https://arxiv.org/abs/2307.08691)
 * [FlashFFTConv: Efficient Convolutions for Long Sequences with Tensor Cores](https://arxiv.org/abs/2311.05908)
 
+## Quantization, Pruning, and Distillation
+
+### Papers
+* [QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314)
+
+
 ## Can We Replace Attention?
 
 Alternatives to attention that scale sub-quadratically in sequence length.
@@ -84,6 +93,9 @@ High-level overview of this space: [From Deep to Long Learning](https://hazyrese
 
 ## Synthetics for Language Modeling
 Synthetic tasks like associative recall have been very helpful in designing new architectures.
+
+### Associative Recall
+Associative recall has a long history in machine learning. Various works have proposed synthetic formulations of the task to better understand and evaluate model behavior.
 * Associative recall papers: Ba et al, Zhang and Zhou 17, Olsson et al 21
 
 ### Blog Posts
@@ -108,10 +120,21 @@ Can we develop models that grow sub-quadratically with model width?
 * Papers from the blog post
 
 ## Systems for Inference
-* MQA, GQA, Flash Decoding, VLLM, Spec Decoding, Matformer, TGI, TensorRT
+* MQA, GQA, Matformer, TGI, TensorRT
+* [Fast Inference from Transformers via Speculative Decoding](https://arxiv.org/abs/2211.17192)
+* [Flash-Decoding for long-context inference](https://crfm.stanford.edu/2023/10/12/flashdecoding.html)
+* [Efficient Streaming Language Models with Attention Sinks](https://arxiv.org/abs/2309.17453)
 
 ## High-Throughput
-* FlexGen, Evaporate, blog post
+
+### Blogposts
+* [Batch computing and the coming age of AI systems](https://hazyresearch.stanford.edu/blog/2023-04-12-batch)
+
+### Papers and projects:
+* [FlexGen](FlexGen: High-throughput Generative Inference of Large Language Models with a Single GPU)
+* [Evaporate: Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes](https://www.vldb.org/pvldb/vol17/p92-arora.pdf)
+* [vLLM: Easy, Fast, and Cheap LLM Serving with PagedAttention](https://blog.vllm.ai/2023/06/20/vllm.html)
+
 
 ## New Data Types
 * HyenaDNA, find papers that have used it, blog posts, code, EEG, fMRI
