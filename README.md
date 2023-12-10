@@ -6,6 +6,17 @@ This is a (biased) view of great work studying the building blocks of efficient 
 This Github was originally put together as a place to aggregate materials for a [NeurIPS keynote](https://neurips.cc/virtual/2023/invited-talk/73990) - but we're also hoping to highlight great work across ML Systems.
 If you think we're missing something, please open an issue or PR!
 
+**Courses.** Courses a great resources for getting started in this space.
+It's great that we have so many that have open materials!
+Here's a partial list of courses -- it's biased by Stanford courses, so please reach out if you think of other resources that are helpful!
+* [Stanford CS 324 LLMs](https://stanford-cs324.github.io/winter2022/)
+* [Stanford CS 324 Advances in Foundation Models](https://stanford-cs324.github.io/winter2023/)
+* [Sasha's talk on do we need attention?](https://github.com/srush/do-we-need-attention/blob/main/DoWeNeedAttention.pdf)
+* [Stanford CS 229S Systems for Machine Learning](https://cs229s.stanford.edu/fall2023/)
+* [MLSys Seminar](https://mlsys.stanford.edu/)
+* [Berkeley AI-Sys](https://ucbrise.github.io/cs294-ai-sys-sp22/)
+* [MIT CS 6.5940](https://hanlab.mit.edu/courses/2023-fall-65940)
+
 If you just want to follow along on the major pieces from the talk, check out these blog posts:
 * [Data Wrangling with Foundation Models](https://hazyresearch.stanford.edu/blog/2023-01-13-datawrangling)
 * [FlashAttention](https://hazyresearch.stanford.edu/blog/2023-01-12-flashattention-long-sequences) and [FlashAttention-2](https://hazyresearch.stanford.edu/blog/2023-07-17-flash2)
@@ -14,15 +25,7 @@ If you just want to follow along on the major pieces from the talk, check out th
 * Synthetics
 * Truly Sub-Quadratic Models
 
-**Courses.** Here are some high-level courses that can be useful for getting your bearings.
-This list is biased by Stanford courses, so please reach out if you think of other resources that are helpful!
-* [Stanford CS 324 LLMs](https://stanford-cs324.github.io/winter2022/)
-* [Stanford CS 324 Advances in Foundation Models](https://stanford-cs324.github.io/winter2023/)
-* [Sasha's talk on do we need attention?](https://github.com/srush/do-we-need-attention/blob/main/DoWeNeedAttention.pdf)
-* [Stanford CS 229S Systems for Machine Learning](https://cs229s.stanford.edu/fall2023/)
-* [MLSys Seminar](https://mlsys.stanford.edu/)
-* [Berkeley AI-Sys](https://ucbrise.github.io/cs294-ai-sys-sp22/)
-* [MIT CS 6.5940](https://hanlab.mit.edu/courses/2023-fall-65940)
+The rest of this README is split up into resources by topic.
 
 **Table of contents:**
 * [Foundation Models for Systems](#foundation-models-for-systems)
