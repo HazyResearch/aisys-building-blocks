@@ -58,8 +58,10 @@ Foundation models are changing the ways that we build systems for classical prob
 ## Hardware-Aware Algorithms
 
 Hardware-aware algorithms for today's ML primitives.
-A classic look at I/O complexity, from the database folks: [The input/output complexity of sorting and related problems](https://dl.acm.org/doi/10.1145/48529.48535).
-The canonical text book for everything FFT's: [Computational Frameworks for the Fast Fourier Transform](https://epubs.siam.org/doi/book/10.1137/1.9781611970999).
+Canonical resources:
+* A classic look at I/O complexity, from the database folks: [The input/output complexity of sorting and related problems](https://dl.acm.org/doi/10.1145/48529.48535).
+* The canonical book on computer architectures: [Computer Architecture: A Quantitative Approach](https://ia800203.us.archive.org/31/items/2007ComputerArchitectureAQuantitativeApproach/2007%20-%20Computer%20Architecture%20-%20A%20Quantitative%20Approach.pdf)
+* The canonical text book for everything FFT's: [Computational Frameworks for the Fast Fourier Transform](https://epubs.siam.org/doi/book/10.1137/1.9781611970999).
 
 ### Blog Posts
 * [Horace He's Making Deep Learning Go Brrrr from First Principles](https://horace.io/brrr_intro.html)
