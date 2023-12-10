@@ -142,6 +142,7 @@ Synthetic tasks like associative recall have been very helpful in designing new 
 * [Self-Attentive Associative Memory](https://arxiv.org/abs/2002.03519)
 * [Neural Turing Machines](https://arxiv.org/abs/1410.5401)
 * [Legendre Memory Units: Continuous-Time Representation in Recurrent Neural Networks](https://papers.nips.cc/paper_files/paper/2019/hash/952285b9b7e7a1be5aa7849f32ffff05-Abstract.html)
+* Synthetic tasks go all the way back to LSTMs: [Long Short-Term Memory](https://deeplearning.cs.cmu.edu/F23/document/readings/LSTM.pdf)
 
 ## Truly Sub-Quadratic Models
 
