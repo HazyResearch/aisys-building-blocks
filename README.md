@@ -78,6 +78,7 @@ The canonical text book for everything FFT's: [Computational Frameworks for the 
 * [Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism](https://arxiv.org/abs/1909.08053)
 * [HOGWILD!: A Lock-Free Approach to Parallelizing Stochastic Gradient Descent](https://arxiv.org/abs/1106.5730)
 * [Efficiently Scaling Transformer Inference](https://arxiv.org/abs/2211.05102)
+* [Microsoft DeepSpeed](https://github.com/microsoft/DeepSpeed)
 
 ## Can We Replace Attention?
 
