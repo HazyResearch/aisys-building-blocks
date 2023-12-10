@@ -208,6 +208,7 @@ Here's some papers and posts on the topic, there's a lot to do!
 * [Hugging Face TGI](https://huggingface.co/docs/text-generation-inference/index)
 * [NVIDIA TensorRT](https://github.com/NVIDIA/TensorRT)
 * [Together Inference Engine](https://www.together.ai/blog/together-inference-engine-v1)
+* [Laughing Hyena Distillery: Extracting Compact Recurrences From Convolutions](https://arxiv.org/abs/2310.18780)
 
 ## High-Throughput
 Foundation models will increasingly be used to serve back-of-house tasks like document processing (not just chat interfaces).
