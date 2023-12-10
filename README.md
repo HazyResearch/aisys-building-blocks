@@ -92,6 +92,7 @@ Canonical resources:
 * [Microsoft DeepSpeed](https://github.com/microsoft/DeepSpeed)
 * [Eleuther's GPT-NeoX Repo](https://github.com/EleutherAI/gpt-neox)
 * [A Systematic Approach to Blocking Convolutional Neural Networks](https://arxiv.org/abs/1606.04209)
+* [TVM: An Automated End-to-End Optimizing Compiler for Deep Learning](https://arxiv.org/abs/1802.04799)
 
 ## Can We Replace Attention?
 
