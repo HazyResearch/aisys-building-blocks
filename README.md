@@ -96,6 +96,7 @@ Canonical resources:
 * [A Systematic Approach to Blocking Convolutional Neural Networks](https://arxiv.org/abs/1606.04209)
 * [TVM: An Automated End-to-End Optimizing Compiler for Deep Learning](https://arxiv.org/abs/1802.04799)
 * [MegaBlocks: Efficient Sparse Training with Mixture-of-Experts](https://people.eecs.berkeley.edu/~matei/papers/2023/mlsys_megablocks.pdf)
+* [Blockwise Self-Attention for Long Document Understanding](https://arxiv.org/abs/1911.02972)
 
 ## Can We Replace Attention?
 
@@ -145,6 +146,9 @@ Here's a partial list of great ideas in this area:
 * [Linformer: Self-Attention with Linear Complexity](https://arxiv.org/abs/2006.04768)
 * [Skyformer: Remodel Self-Attention with Gaussian Kernel and Nyström Method](https://arxiv.org/abs/2111.00035)
 * [Scatterbrain: Unifying Sparse and Low-rank Attention Approximation](https://arxiv.org/abs/2110.15343)
+* [Big Bird: Transformers for Longer Sequences](https://arxiv.org/abs/2007.14062)
+* [Luna: Linear Unified Nested Attention](https://arxiv.org/abs/2106.01540)
+* [FNet: Mixing Tokens with Fourier Transforms](https://arxiv.org/abs/2105.03824)
 
 ## Synthetics for Language Modeling
 In research on efficient language models, synthetic tasks (_e.g._ associative recall) are crucial for understanding and debugging issues before scaling up to expensive pretraining runs.  
