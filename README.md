@@ -128,6 +128,7 @@ High-level overview of this space: [From Deep to Long Learning](https://hazyrese
 * [CKConv: Continuous Kernel Convolution For Sequential Data](https://arxiv.org/abs/2102.02611)
 * [Pretraining Without Attention](https://arxiv.org/abs/2212.10544)
 * [Diffusion Models Without Attention](https://arxiv.org/abs/2311.18257)
+* [Liquid Structural State-Space Models](https://arxiv.org/abs/2209.12951)
 
 ## Synthetics for Language Modeling
 Synthetic tasks like associative recall have been very helpful in designing new architectures.
