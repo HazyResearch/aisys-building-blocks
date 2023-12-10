@@ -64,6 +64,7 @@ Canonical resources:
 * A classic look at I/O complexity, from the database folks: [The input/output complexity of sorting and related problems](https://dl.acm.org/doi/10.1145/48529.48535).
 * The canonical book on computer architectures: [Computer Architecture: A Quantitative Approach](https://ia800203.us.archive.org/31/items/2007ComputerArchitectureAQuantitativeApproach/2007%20-%20Computer%20Architecture%20-%20A%20Quantitative%20Approach.pdf).
 * The canonical text book for everything FFT's: [Computational Frameworks for the Fast Fourier Transform](https://epubs.siam.org/doi/book/10.1137/1.9781611970999).
+
 [Jim Gray's Turing Award Profile](https://amturing.acm.org/award_winners/gray_3649936.cfm).
 
 ### Blog Posts
