@@ -104,6 +104,7 @@ High-level overview of this space: [From Deep to Long Learning](https://hazyrese
 * [StripedHyena-7B](https://www.together.ai/blog/stripedhyena-7b)
 
 ### Papers
+* [Long Range Arena](https://arxiv.org/abs/2011.04006)
 * [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.00752) and [code](https://github.com/state-spaces/mamba)
 * [RWKV](https://arxiv.org/abs/2305.13048) and [code](https://github.com/BlinkDL/RWKV-LM)
 * [Efficiently Modeling Long Sequences with Structured State Spaces](https://arxiv.org/abs/2111.00396)
