@@ -90,6 +90,7 @@ Canonical resources:
 ## Can We Replace Attention?
 
 Alternatives to attention that scale sub-quadratically in sequence length.
+Canonical text on signal processing: [Discrete-Time Signal Processing](https://dl.acm.org/doi/10.5555/1795494).
 High-level overview of this space: [From Deep to Long Learning](https://hazyresearch.stanford.edu/blog/2023-03-27-long-learning).
 
 ### Blog Posts
