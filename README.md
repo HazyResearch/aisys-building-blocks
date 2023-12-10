@@ -35,7 +35,7 @@ The rest of this README is split up into resources by topic.
 * [Can We Replace Attention?](#can-we-replace-attention)
 * [Synthetics for Language Modeling](#synthetics-for-language-modeling)
 * [Truly Sub-Quadratic Models](#truly-sub-quadratic-models)
-* [Quantization, Pruning, and Distillation](#quantization-pruning-distillation)
+* [Quantization, Pruning, and Distillation](#quantization-pruning-and-distillation)
 * [Systems for Inference](#systems-for-inference)
 * [High-Throughput](#high-throughput)
 * [New Data Types](#new-data-types)
@@ -142,6 +142,7 @@ High-level overview of this space: [From Deep to Long Learning](https://hazyrese
 There's also a great literature around approximating attention (sparse, low-rank, etc).
 Just as exciting!
 Here's a partial list of great ideas in this area:
+* [Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention](https://arxiv.org/abs/2006.16236)
 * [Reformer: The Efficient Transformer](https://arxiv.org/abs/2001.04451)
 * [Rethinking Attention with Performers](https://arxiv.org/abs/2009.14794)
 * [Nyströmformer: A Nyström-Based Algorithm for Approximating Self-Attention](https://arxiv.org/abs/2102.03902)
@@ -151,6 +152,8 @@ Here's a partial list of great ideas in this area:
 * [Big Bird: Transformers for Longer Sequences](https://arxiv.org/abs/2007.14062)
 * [Luna: Linear Unified Nested Attention](https://arxiv.org/abs/2106.01540)
 * [FNet: Mixing Tokens with Fourier Transforms](https://arxiv.org/abs/2105.03824)
+* [The Devil in Linear Transformer](https://arxiv.org/abs/2210.10340)
+* [cosFormer: Rethinking Softmax in Attention](https://arxiv.org/abs/2202.08791)
 
 ## Synthetics for Language Modeling
 In research on efficient language models, synthetic tasks (_e.g._ associative recall) are crucial for understanding and debugging issues before scaling up to expensive pretraining runs.  
@@ -161,6 +164,7 @@ We've created a very simple GitHub repo with a simple playground for understandi
 ### Blog Posts
 * [Zoology blog post]()
 * [H3 blog post](https://hazyresearch.stanford.edu/blog/2023-01-20-h3) section on associative recall
+* [Anthropic's great explainer of associative recall in *induction heads*](https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html#definition-of-induction-heads)
 
 ### Papers
 * [Zoology: Measuring and improving recall in efficient languae models]()
@@ -245,6 +249,7 @@ New modalities will drive advances in model architectures and systems.
 A few modalities compiled below:
 * DNA: [HyenaDNA paper](https://arxiv.org/abs/2306.15794) and [blog](https://hazyresearch.stanford.edu/blog/2023-06-29-hyena-dna)
 * [SSMs for Video](https://arxiv.org/abs/2303.14526)
+* [SpaceTime: Effectively Modeling Time Series with Simple Discrete State Spaces](https://arxiv.org/abs/2303.09489) [[paper](https://arxiv.org/abs/2303.09489)] [[code](https://github.com/HazyResearch/spacetime/tree/main)], [[demo](https://colab.research.google.com/drive/1dyR7ZGnjNfS2GMjRUfDzujQLhxSo-Xsk?usp=sharing)]
 * [Recurrent Distance-Encoding Neural Networks for Graph Representation Learning](https://arxiv.org/abs/2312.01538)
 * [Modeling Multivariate Biosignals With Graph Neural Networks and Structured State Space Models](https://arxiv.org/abs/2211.11176)
 * [Self-Supervised Graph Neural Networks for Improved Electroencephalographic Seizure Analysis](https://arxiv.org/abs/2104.08336)
