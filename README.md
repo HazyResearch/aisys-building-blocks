@@ -187,6 +187,7 @@ Here's just a short overview of some of the ideas here:
 * [Accelerating Inference with Sparsity Using the NVIDIA Ampere Architecture and NVIDIA TensorRT](https://developer.nvidia.com/blog/accelerating-inference-with-sparsity-using-ampere-and-tensorrt/)
 * [SpQR: A Sparse-Quantized Representation for Near-Lossless LLM Weight Compression](https://arxiv.org/abs/2306.03078)
 * [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)
+* [MCUNet: Tiny Deep Learning on IoT Devices](https://arxiv.org/abs/2007.10319)
 
 ## Systems for Inference
 Inference is an increasingly important cost for LLMs: a model will be served many more times than it is trained.
