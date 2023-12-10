@@ -94,6 +94,7 @@ High-level overview of this space: [From Deep to Long Learning](https://hazyrese
 
 ### Blog Posts
 * [What is a long convolution?]()
+* [Can Longer Sequences Help Take the Next Leap in AI?](https://hazyresearch.stanford.edu/blog/2022-06-09-longer-sequences-next-leap-ai)
 * [Simplifying S4](https://hazyresearch.stanford.edu/blog/2022-06-11-simplifying-s4)
 * [Sasha's Great Annotated S4](https://srush.github.io/annotated-s4/)
 * [H3: Language Modeling with State Space Models and (Almost) No Attention](https://hazyresearch.stanford.edu/blog/2023-01-20-h3)
