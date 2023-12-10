@@ -51,6 +51,9 @@ Foundation models are changing the ways that we build systems for classical prob
 * [CodexDB: Synthesizing Code for Query Processing from Natural Language Instructions using GPT-3 Codex](https://www.vldb.org/pvldb/vol15/p2921-trummer.pdf)
 * [CHORUS: Foundation Models for Unified Data Discovery and Exploration](https://arxiv.org/abs/2306.09610)
 * [How Large Language Models Will Disrupt Data Management](https://dl.acm.org/doi/abs/10.14778/3611479.3611527)
+* [GPTuner: A Manual-Reading Database Tuning System via GPT-Guided Bayesian Optimization](https://arxiv.org/abs/2311.03157)
+* [Jellyfish: A Large Language Model for Data Preprocessing](https://arxiv.org/abs/2312.01678)
+* [Can Large Language Models Predict Data Correlations from Column Names?](https://dl.acm.org/doi/abs/10.14778/3625054.3625066)
 
 ## Hardware-Aware Algorithms
 
