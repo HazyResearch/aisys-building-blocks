@@ -134,13 +134,17 @@ High-level overview of this space: [From Deep to Long Learning](https://hazyrese
 * [Liquid Structural State-Space Models](https://arxiv.org/abs/2209.12951)
 
 ## Synthetics for Language Modeling
-Synthetic tasks like associative recall have been very helpful in designing new architectures.
+In research on efficient language models, synthetic tasks (_e.g._ associative recall) are crucial for understanding and debugging issues before scaling up to expensive pretraining runs.  
+
+### Code
+We've created a very simple GitHub repo with a simple playground for understanding and testing langauge model architectures on synthetic tasks: **[HazyResearch/zoology]( https://github.com/HazyResearch/zoology)**.
 
 ### Blog Posts
-* MQAR blog post
+* [Zoology blog post]()
 * [H3 blog post](https://hazyresearch.stanford.edu/blog/2023-01-20-h3) section on associative recall
 
 ### Papers
+* [Zoology: Measuring and improving recall in efficient languae models]()
 * [H3 section 3.1](https://arxiv.org/abs/2212.14052)
 * [In-context Learning and Induction Heads](https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html)
 * [Associative Long Short-Term Memory](https://arxiv.org/abs/1602.03032)
