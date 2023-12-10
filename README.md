@@ -42,7 +42,7 @@ The rest of this README is split up into resources by topic.
 Foundation models are changing the ways that we build systems for classical problems like data cleaning.
 [SIGMOD keynote](https://cs.stanford.edu/~chrismre/papers/SIGMOD-Chris-Re-DataCentric-Foundation-Models-KeyNote.pdf) on this topic.
 Ihab Ilyas and Xu Chen's textbook on data cleaning: [Data Cleaning](https://dl.acm.org/doi/book/10.1145/3310205).
-the [ML for Systems](https://mlforsystems.org/) community is great.
+The [ML for Systems](https://mlforsystems.org/) workshops and community are great.
 
 ### Blog Posts
 * [Bad Data Costs the U.S. $3 Trillion Per Year](https://hbr.org/2016/09/bad-data-costs-the-u-s-3-trillion-per-year)
