@@ -72,6 +72,9 @@ The canonical text book for everything FFT's: [Computational Frameworks for the 
 * [Ring Attention with Blockwise Transformers for Near-Infinite Context](https://arxiv.org/abs/2310.01889)
 * [Faster Causal Attention Over Large Sequences Through Sparse Flash Attention](https://arxiv.org/abs/2306.01160)
 * [FLAT: An Optimized Dataflow for Mitigating Attention Bottlenecks](https://arxiv.org/abs/2107.06419)
+* [Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism](https://arxiv.org/abs/1909.08053)
+* [HOGWILD!: A Lock-Free Approach to Parallelizing Stochastic Gradient Descent](https://arxiv.org/abs/1106.5730)
+* [Efficiently Scaling Transformer Inference](https://arxiv.org/abs/2211.05102)
 
 ## Can We Replace Attention?
 
