@@ -75,6 +75,7 @@ Canonical resources:
 * [Aleksa Gordic's ELI5 for FlashAttention](https://gordicaleksa.medium.com/eli5-flash-attention-5c44017022ad)
 * [FlashAttention](https://crfm.stanford.edu/2023/01/13/flashattention.html)
 * [FlashFFTConv](https://hazyresearch.stanford.edu/blog/2023-11-13-flashfftconv)
+* [Sasha's GPU Puzzles](https://github.com/srush/GPU-Puzzles)
 
 ### Papers
 * [FlashAttention](https://arxiv.org/abs/2205.14135) and [FlashAttention-2](https://arxiv.org/abs/2307.08691)
