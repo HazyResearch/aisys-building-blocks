@@ -25,6 +25,8 @@ If you just want to follow along on the major pieces from the talk, check out th
 * Synthetics
 * Truly Sub-Quadratic Models
 
+An older set of resources on [Data-Centric AI](https://github.com/HazyResearch/data-centric-ai).
+
 The rest of this README is split up into resources by topic.
 
 **Table of contents:**
