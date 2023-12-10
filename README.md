@@ -135,6 +135,17 @@ High-level overview of this space: [From Deep to Long Learning](https://hazyrese
 * [Liquid Structural State-Space Models](https://arxiv.org/abs/2209.12951)
 * [Fourier Neural Operator for Parametric Partial Differential Equations](https://arxiv.org/abs/2010.08895)
 
+### Attention Approximations
+There's also a great literature around approximating attention (sparse, low-rank, etc).
+Just as exciting!
+Here's a partial list of great ideas in this area:
+* [Reformer: The Efficient Transformer](https://arxiv.org/abs/2001.04451)
+* [Rethinking Attention with Performers](https://arxiv.org/abs/2009.14794)
+* [Nyströmformer: A Nyström-Based Algorithm for Approximating Self-Attention](https://arxiv.org/abs/2102.03902)
+* [Linformer: Self-Attention with Linear Complexity](https://arxiv.org/abs/2006.04768)
+* [Skyformer: Remodel Self-Attention with Gaussian Kernel and Nyström Method](https://arxiv.org/abs/2111.00035)
+* [Scatterbrain: Unifying Sparse and Low-rank Attention Approximation](https://arxiv.org/abs/2110.15343)
+
 ## Synthetics for Language Modeling
 In research on efficient language models, synthetic tasks (_e.g._ associative recall) are crucial for understanding and debugging issues before scaling up to expensive pretraining runs.  
 
@@ -195,6 +206,7 @@ Here's just a short overview of some of the ideas here:
 * [SpQR: A Sparse-Quantized Representation for Near-Lossless LLM Weight Compression](https://arxiv.org/abs/2306.03078)
 * [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)
 * [MCUNet: Tiny Deep Learning on IoT Devices](https://arxiv.org/abs/2007.10319)
+* [MONGOOSE: A Learnable LSH Framework for Efficient Neural Network Training](https://github.com/HazyResearch/mongoose)
 
 ## Systems for Inference
 Inference is an increasingly important cost for LLMs: a model will be served many more times than it is trained.
@@ -211,6 +223,7 @@ Here's some papers and posts on the topic, there's a lot to do!
 * [NVIDIA TensorRT](https://github.com/NVIDIA/TensorRT)
 * [Together Inference Engine](https://www.together.ai/blog/together-inference-engine-v1)
 * [Laughing Hyena Distillery: Extracting Compact Recurrences From Convolutions](https://arxiv.org/abs/2310.18780)
+* [H2O: Heavy-Hitter Oracle for Efficient Generative Inference of Large Language Models](https://arxiv.org/abs/2306.14048)
 
 ## High-Throughput
 Foundation models will increasingly be used to serve back-of-house tasks like document processing (not just chat interfaces).
