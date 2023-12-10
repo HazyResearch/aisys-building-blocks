@@ -49,6 +49,8 @@ Foundation models are changing the ways that we build systems for classical prob
 * [Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes](https://arxiv.org/abs/2304.09433)
 * [Symphony: Towards Natural Language Query Answering Over Multi-Modal Data Lakes](https://www.cidrdb.org/cidr2023/papers/p51-chen.pdf)
 * [CodexDB: Synthesizing Code for Query Processing from Natural Language Instructions using GPT-3 Codex](https://www.vldb.org/pvldb/vol15/p2921-trummer.pdf)
+* [CHORUS: Foundation Models for Unified Data Discovery and Exploration](https://arxiv.org/abs/2306.09610)
+* [How Large Language Models Will Disrupt Data Management](https://dl.acm.org/doi/abs/10.14778/3611479.3611527)
 
 ## Hardware-Aware Algorithms
 
