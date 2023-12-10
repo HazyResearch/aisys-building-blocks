@@ -38,8 +38,10 @@ This list is biased by Stanford courses, so please reach out if you think of oth
 ## Foundation Models for Systems
 Foundation models are changing the ways that we build systems for classical problems like data cleaning.
 [SIGMOD keynote](https://cs.stanford.edu/~chrismre/papers/SIGMOD-Chris-Re-DataCentric-Foundation-Models-KeyNote.pdf) on this topic.
+Ihab Ilyas and Xu Chen's textbook on data cleaning: [Data Cleaning](https://dl.acm.org/doi/book/10.1145/3310205).
 
 ### Blog Posts
+* [Bad Data Costs the U.S. $3 Trillion Per Year](https://hbr.org/2016/09/bad-data-costs-the-u-s-3-trillion-per-year)
 * [Data Wrangling with Foundation Models](https://hazyresearch.stanford.edu/blog/2023-01-13-datawrangling)
 * [Ask Me Anything: Leveraging Foundation Models for Private & Personalized Systems](https://hazyresearch.stanford.edu/blog/2023-04-18-personalization)
 
