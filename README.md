@@ -151,8 +151,8 @@ The canonical textbook for a lot of this stuff: [Structured Matrices and Polynom
 * [A Two Pronged Progress in Structured Dense Matrix Multiplication](https://arxiv.org/abs/1611.01569)
 
 ## Quantization, Pruning, and Distillation
-
-### Papers
+Quantization, pruning, and distillation are great techniques to improve efficiency.
+Here's just a short overview of some of the ideas here:
 * [QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314)
 * [The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks](https://arxiv.org/abs/1803.03635)
 * [Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding](https://arxiv.org/abs/1510.00149)
@@ -161,6 +161,8 @@ The canonical textbook for a lot of this stuff: [Structured Matrices and Polynom
 * [SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models](https://arxiv.org/abs/2211.10438)
 * [SpAtten: Efficient Sparse Attention Architecture with Cascade Token and Head Pruning](https://hanlab.mit.edu/projects/spatten)
 * [Accelerating Inference with Sparsity Using the NVIDIA Ampere Architecture and NVIDIA TensorRT](https://developer.nvidia.com/blog/accelerating-inference-with-sparsity-using-ampere-and-tensorrt/)
+* [SpQR: A Sparse-Quantized Representation for Near-Lossless LLM Weight Compression](https://arxiv.org/abs/2306.03078)
+* [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)
 
 ## Systems for Inference
 Inference is an increasingly important cost for LLMs: a model will be served many more times than it is trained.
