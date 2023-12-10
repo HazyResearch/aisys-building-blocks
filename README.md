@@ -133,6 +133,7 @@ High-level overview of this space: [From Deep to Long Learning](https://hazyrese
 * [Pretraining Without Attention](https://arxiv.org/abs/2212.10544)
 * [Diffusion Models Without Attention](https://arxiv.org/abs/2311.18257)
 * [Liquid Structural State-Space Models](https://arxiv.org/abs/2209.12951)
+* [Fourier Neural Operator for Parametric Partial Differential Equations](https://arxiv.org/abs/2010.08895)
 
 ## Synthetics for Language Modeling
 In research on efficient language models, synthetic tasks (_e.g._ associative recall) are crucial for understanding and debugging issues before scaling up to expensive pretraining runs.  
