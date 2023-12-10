@@ -58,6 +58,7 @@ Foundation models are changing the ways that we build systems for classical prob
 ## Hardware-Aware Algorithms
 
 Hardware-aware algorithms for today's ML primitives.
+A classic look at I/O complexity, from the database folks: [The input/output complexity of sorting and related problems](https://dl.acm.org/doi/10.1145/48529.48535).
 The canonical text book for everything FFT's: [Computational Frameworks for the Fast Fourier Transform](https://epubs.siam.org/doi/book/10.1137/1.9781611970999).
 
 ### Blog Posts
