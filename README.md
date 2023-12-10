@@ -57,10 +57,11 @@ Foundation models are changing the ways that we build systems for classical prob
 
 ## Hardware-Aware Algorithms
 
-Hardware-aware algorithms for today's ML primitives, like attention and long convolutions.
+Hardware-aware algorithms for today's ML primitives.
 The canonical text book for everything FFT's: [Computational Frameworks for the Fast Fourier Transform](https://epubs.siam.org/doi/book/10.1137/1.9781611970999).
 
 ### Blog Posts
+* [Horace He's Making Deep Learning Go Brrrr from First Principles](https://horace.io/brrr_intro.html)
 * [Aleksa Gordic's ELI5 for FlashAttention](https://gordicaleksa.medium.com/eli5-flash-attention-5c44017022ad)
 * [FlashAttention](https://crfm.stanford.edu/2023/01/13/flashattention.html)
 * [FlashFFTConv](https://hazyresearch.stanford.edu/blog/2023-11-13-flashfftconv)
