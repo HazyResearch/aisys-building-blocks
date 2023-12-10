@@ -148,6 +148,9 @@ The canonical textbook for a lot of this stuff: [Structured Matrices and Polynom
 * [Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding](https://arxiv.org/abs/1510.00149)
 * [Learning to Prune Deep Neural Networks via Layer-wise Optimal Brain Surgeon](https://arxiv.org/abs/1705.07565)
 * [QuIP#: QuIP with Lattice Codebooks](https://cornell-relaxml.github.io/quip-sharp/)
+* [SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models](https://arxiv.org/abs/2211.10438)
+* [SpAtten: Efficient Sparse Attention Architecture with Cascade Token and Head Pruning](https://hanlab.mit.edu/projects/spatten)
+* [Accelerating Inference with Sparsity Using the NVIDIA Ampere Architecture and NVIDIA TensorRT](https://developer.nvidia.com/blog/accelerating-inference-with-sparsity-using-ampere-and-tensorrt/)
 
 ## Systems for Inference
 Inference is an increasingly important cost for LLMs: a model will be served many more times than it is trained.
