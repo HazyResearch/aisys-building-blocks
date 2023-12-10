@@ -56,6 +56,7 @@ Hardware-aware algorithms for today's ML primitives, like attention and long con
 The canonical text book for everything FFT's: [Computational Frameworks for the Fast Fourier Transform](https://epubs.siam.org/doi/book/10.1137/1.9781611970999).
 
 ### Blog Posts
+* [Aleksa Gordic's ELI5 for FlashAttention[(https://gordicaleksa.medium.com/eli5-flash-attention-5c44017022ad)
 * [FlashAttention](https://crfm.stanford.edu/2023/01/13/flashattention.html)
 * [FlashFFTConv](https://hazyresearch.stanford.edu/blog/2023-11-13-flashfftconv)
 
@@ -63,8 +64,12 @@ The canonical text book for everything FFT's: [Computational Frameworks for the 
 * [FlashAttention](https://arxiv.org/abs/2205.14135) and [FlashAttention-2](https://arxiv.org/abs/2307.08691)
 * [Self-Attention Does Not Need O(N^2) Memory](https://arxiv.org/abs/2112.05682)
 * [FlashFFTConv: Efficient Convolutions for Long Sequences with Tensor Cores](https://arxiv.org/abs/2311.05908)
+* [tcFFT: Accelerating Half-Precision FFT through Tensor Cores](https://arxiv.org/abs/2104.11471)
+* [Cooley-Tukey FFT Algorithm](https://en.wikipedia.org/wiki/Cooley%E2%80%93Tukey_FFT_algorithm)
 * [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/abs/2309.06180)
 * [Ring Attention with Blockwise Transformers for Near-Infinite Context](https://arxiv.org/abs/2310.01889)
+* [Faster Causal Attention Over Large Sequences Through Sparse Flash Attention](https://arxiv.org/abs/2306.01160)
+* [FLAT: An Optimized Dataflow for Mitigating Attention Bottlenecks](https://arxiv.org/abs/2107.06419)
 
 ## Can We Replace Attention?
 
