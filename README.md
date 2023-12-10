@@ -85,6 +85,7 @@ Canonical resources:
 * [HOGWILD!: A Lock-Free Approach to Parallelizing Stochastic Gradient Descent](https://arxiv.org/abs/1106.5730)
 * [Efficiently Scaling Transformer Inference](https://arxiv.org/abs/2211.05102)
 * [Microsoft DeepSpeed](https://github.com/microsoft/DeepSpeed)
+* [Eleuther's GPT-NeoX Repo](https://github.com/EleutherAI/gpt-neox)
 
 ## Can We Replace Attention?
 
