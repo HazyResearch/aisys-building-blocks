@@ -21,9 +21,9 @@ If you just want to follow along on the major pieces from the talk, check out th
 * [Data Wrangling with Foundation Models](https://hazyresearch.stanford.edu/blog/2023-01-13-datawrangling)
 * [FlashAttention](https://hazyresearch.stanford.edu/blog/2023-01-12-flashattention-long-sequences) and [FlashAttention-2](https://hazyresearch.stanford.edu/blog/2023-07-17-flash2)
 * [Simplifying S4](https://hazyresearch.stanford.edu/blog/2022-06-11-simplifying-s4)
-* Long Convolutions for GPT-style Models
-* Synthetics
-* Truly Sub-Quadratic Models
+* [Long Convolutions for GPT-style Models](https://hazyresearch.stanford.edu/blog/2023-12-11-conv-tutorial)
+* Overview of Synthetics
+* [Truly Sub-Quadratic Models](https://hazyresearch.stanford.edu/blog/2023-12-11-truly-subquadratic)
 
 An older set of resources on [Data-Centric AI](https://github.com/HazyResearch/data-centric-ai).
 
@@ -107,7 +107,7 @@ Canonical text on signal processing: [Discrete-Time Signal Processing](https://d
 High-level overview of this space: [From Deep to Long Learning](https://hazyresearch.stanford.edu/blog/2023-03-27-long-learning).
 
 ### Blog Posts
-* [What is a long convolution?]()
+* [What is a long convolution?](https://hazyresearch.stanford.edu/blog/2023-12-11-conv-tutorial)
 * [Can Longer Sequences Help Take the Next Leap in AI?](https://hazyresearch.stanford.edu/blog/2022-06-09-longer-sequences-next-leap-ai)
 * [Simplifying S4](https://hazyresearch.stanford.edu/blog/2022-06-11-simplifying-s4)
 * [Sasha's Great Annotated S4](https://srush.github.io/annotated-s4/)
@@ -186,7 +186,7 @@ Can we develop models that grow sub-quadratically with model width?
 The canonical textbook for a lot of this stuff: [Structured Matrices and Polynomials](https://link.springer.com/book/10.1007/978-1-4612-0129-8).
 
 ### Blog Posts
-* Monarch Blog Post
+* [Towards Truly Subquadratic Models](https://hazyresearch.stanford.edu/blog/2023-12-11-truly-subquadratic)
 * [M2-BERT: Revisiting BERT, Without Attention or MLPs](https://hazyresearch.stanford.edu/blog/2023-07-25-m2-bert)
 * [Pixelated Butterfly: Simple and Efficient Sparse Training for Neural Network Models](https://hazyresearch.stanford.edu/blog/2022-01-17-Sparsity-3-Pixelated-Butterfly)
 * [Butterflies Are All You Need: A Universal Building Block for Structured Linear Maps](https://dawn.cs.stanford.edu/2019/06/13/butterfly/)
