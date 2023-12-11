@@ -54,6 +54,7 @@ The [ML for Systems](https://mlforsystems.org/) workshops and community are grea
 ### Papers
 * [Holoclean: Holistic Data Repairs with Probabilistic Inference](https://arxiv.org/abs/1702.00820)
 * [Can Foundation Models Wrangle Your Data?](https://arxiv.org/abs/2205.09911)
+* [Can Foundation Models Help Us Achieve Perfect Secrecy?](https://arxiv.org/abs/2205.13722) and [ConcurrentQA](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00580/117168/Reasoning-over-Public-and-Private-Data-in)
 * [Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes](https://arxiv.org/abs/2304.09433)
 * [Symphony: Towards Natural Language Query Answering Over Multi-Modal Data Lakes](https://www.cidrdb.org/cidr2023/papers/p51-chen.pdf)
 * [CodexDB: Synthesizing Code for Query Processing from Natural Language Instructions using GPT-3 Codex](https://www.vldb.org/pvldb/vol15/p2921-trummer.pdf)
@@ -119,6 +120,7 @@ High-level overview of this space: [From Deep to Long Learning](https://hazyrese
 ### Papers
 * [Long Range Arena](https://arxiv.org/abs/2011.04006)
 * [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.00752) and [code](https://github.com/state-spaces/mamba)
+* [Zoology: Measuring and improving recall in efficient language models](https://arxiv.org/abs/2312.04927)
 * [RWKV](https://arxiv.org/abs/2305.13048) and [code](https://github.com/BlinkDL/RWKV-LM)
 * [Efficiently Modeling Long Sequences with Structured State Spaces](https://arxiv.org/abs/2111.00396)
 * [Long Range Language Modeling via Gated State Spaces](https://arxiv.org/abs/2206.13947)
@@ -167,7 +169,7 @@ We've created a very simple GitHub repo with a simple playground for understandi
 * [Anthropic's great explainer of associative recall in *induction heads*](https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html#definition-of-induction-heads)
 
 ### Papers
-* [Zoology: Measuring and improving recall in efficient languae models](https://arxiv.org/abs/2312.04927)
+* [Zoology section 3-4](https://arxiv.org/abs/2312.04927)
 * [H3 section 3.1](https://arxiv.org/abs/2212.14052)
 * [In-context Learning and Induction Heads](https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html)
 * [Associative Long Short-Term Memory](https://arxiv.org/abs/1602.03032)
