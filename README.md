@@ -167,7 +167,7 @@ We've created a very simple GitHub repo with a simple playground for understandi
 * [Anthropic's great explainer of associative recall in *induction heads*](https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html#definition-of-induction-heads)
 
 ### Papers
-* [Zoology: Measuring and improving recall in efficient languae models]()
+* [Zoology: Measuring and improving recall in efficient languae models](https://arxiv.org/abs/2312.04927)
 * [H3 section 3.1](https://arxiv.org/abs/2212.14052)
 * [In-context Learning and Induction Heads](https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html)
 * [Associative Long Short-Term Memory](https://arxiv.org/abs/1602.03032)
