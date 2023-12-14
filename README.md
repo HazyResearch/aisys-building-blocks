@@ -1,6 +1,4 @@
-# (WIP) Building Blocks for AI Systems
-
-**This repo is under construction!**
+# Building Blocks for AI Systems
 
 This is a (biased) view of great work studying the building blocks of efficient and performant foundation models.
 This Github was originally put together as a place to aggregate materials for a [NeurIPS keynote](https://neurips.cc/virtual/2023/invited-talk/73990) - but we're also hoping to highlight great work across AI Systems.
@@ -22,7 +20,8 @@ If you just want to follow along on the major pieces from the talk, check out th
 * [FlashAttention](https://hazyresearch.stanford.edu/blog/2023-01-12-flashattention-long-sequences) and [FlashAttention-2](https://hazyresearch.stanford.edu/blog/2023-07-17-flash2)
 * [Simplifying S4](https://hazyresearch.stanford.edu/blog/2022-06-11-simplifying-s4)
 * [Long Convolutions for GPT-style Models](https://hazyresearch.stanford.edu/blog/2023-12-11-conv-tutorial)
-* Overview of Synthetics
+* [Zoology Synthetics Analysis](https://hazyresearch.stanford.edu/blog/2023-12-11-zoology1-analysis)
+* [Zoology Based](https://hazyresearch.stanford.edu/blog/2023-12-11-zoology2-based)
 * [Truly Sub-Quadratic Models](https://hazyresearch.stanford.edu/blog/2023-12-11-truly-subquadratic)
 
 An older set of resources on [Data-Centric AI](https://github.com/HazyResearch/data-centric-ai).
@@ -167,7 +166,7 @@ In research on efficient language models, synthetic tasks (_e.g._ associative re
 We've created a very simple GitHub repo with a simple playground for understanding and testing langauge model architectures on synthetic tasks: **[HazyResearch/zoology]( https://github.com/HazyResearch/zoology)**.
 
 ### Blog Posts
-* [Zoology blog post]()
+* [Zoology blog post on synthetics](https://hazyresearch.stanford.edu/blog/2023-12-11-zoology1-analysis)
 * [H3 blog post](https://hazyresearch.stanford.edu/blog/2023-01-20-h3) section on associative recall
 * [Anthropic's great explainer of associative recall in *induction heads*](https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html#definition-of-induction-heads)
 
