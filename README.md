@@ -116,6 +116,9 @@ High-level overview of this space: [From Deep to Long Learning](https://hazyrese
 * [Hyena Blog](https://hazyresearch.stanford.edu/blog/2023-06-08-hyena-safari)
 * Mamba tweet threads by [Albert](https://twitter.com/_albertgu/status/1731727672286294400) and [Tri](https://twitter.com/tri_dao/status/1731728602230890895)
 * [StripedHyena-7B](https://www.together.ai/blog/stripedhyena-7b)
+* [Zoology](https://hazyresearch.stanford.edu/blog/2023-12-11-zoology0-intro)
+* [Zoology Analysis](https://hazyresearch.stanford.edu/blog/2023-12-11-zoology1-analysis)
+* [Based Architecture](https://hazyresearch.stanford.edu/blog/2023-12-11-zoology2-based)
 
 ### Papers
 * [Long Range Arena](https://arxiv.org/abs/2011.04006)
