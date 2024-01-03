@@ -4,6 +4,8 @@ This is a (biased) view of great work studying the building blocks of efficient 
 This Github was originally put together as a place to aggregate materials for a [NeurIPS keynote](https://neurips.cc/virtual/2023/invited-talk/73990) - but we're also hoping to highlight great work across AI Systems.
 If you think we're missing something, please open an issue or PR!
 
+Slides from Chris Ré's NeurIPS Keynote: https://cs.stanford.edu/~chrismre/papers/NeurIPS23_Chris_Re_Keynote_DELIVERED.pptx 
+
 **Courses.** Courses a great resources for getting started in this space.
 It's great that we have so many that have open materials!
 Here's a partial list of courses -- it's biased by Stanford courses, so please reach out if you think of other resources that are helpful!
